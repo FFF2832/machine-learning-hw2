@@ -1,0 +1,9 @@
+import numpy as np
+import pandas as pd
+
+data = pd.read_csv("./HW2_heart.csv", sep=';')
+
+print(data.head())
+# data.info()
+print(data.shape)
+print(data.info())
